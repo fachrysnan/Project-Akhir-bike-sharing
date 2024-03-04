@@ -6,7 +6,7 @@ sns.set(style='dark')
 
 st.set_page_config(page_title="Bike Rental")
 
-hour_df = pd.read_csv("hour.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/fachrysnan/Bike-sharing-dataset/main/day.csv")
 hour_df.head()
 
 # Mengubah judul kolom
